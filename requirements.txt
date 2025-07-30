@@ -1,0 +1,8 @@
+torch>=1.8.0
+opencv-python
+matplotlib
+yolov5  # or ultralytics if using the new YOLO
+pandas
+PyYAML
+flask  # for app.py if web app
+python-dotenv  # for .env file loading 
