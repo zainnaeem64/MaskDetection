@@ -1,0 +1,14 @@
+artifact_uri: /home/zain/work/learning/deep_learning/vision/MaskDetection/Notebook/runs/mlflow/858483303677411717/26d8dbe0a21040e7a61c117c491210e2/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '858483303677411717'
+lifecycle_stage: active
+run_id: 26d8dbe0a21040e7a61c117c491210e2
+run_name: facemask3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753881057055
+status: 1
+tags: []
+user_id: zain
