@@ -4,8 +4,8 @@
 
 ```
 MaskDetection/
-│── data/               # 
-│── models/             # 
+│── data/               
+│── models/              
 │── notebooks/          # Jupyter experiments
 │── results/            # Training logs & outputs (from Notebook/runs)
 │── app.py              # Run detection app
@@ -34,22 +34,7 @@ pip install -r requirements.txt
 ```
 
 ## Results
-- Training logs, weights, and outputs are in the `results/` directory. 
-
-## Modular Code Structure
-
-```
-MaskDetection/
-│── app.py              # Flask app entry point
-│── train_yolo.py       # Training script entry point
-│── test_yolo.py        # Testing script entry point
-│── requirements.txt    # Dependencies
-│── README.md           # Project documentation
-│── models/             # Model loading, prediction, and utility code
-│   ├── __init__.py
-│   ├── yolo_utils.py   # YOLO model loading, prediction, and result parsing
-│── FaceMask.v2i.yolov11/ # Main dataset
-```
+- Training logs, weights, and outputs are in the `results/` directory.
 
 - All model-related logic is in `models/` for reuse and clarity.
 - Scripts (`app.py`, `train_yolo.py`, `test_yolo.py`) are thin entry points.
