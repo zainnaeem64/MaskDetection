@@ -4,8 +4,8 @@
 
 ```
 MaskDetection/
-│── data/               # (Removed, now using FaceMask.v2i.yolov11)
-│── models/             # Model definitions (to be created)
+│── data/               # 
+│── models/             # 
 │── notebooks/          # Jupyter experiments
 │── results/            # Training logs & outputs (from Notebook/runs)
 │── app.py              # Run detection app
